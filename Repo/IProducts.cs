@@ -8,5 +8,6 @@ namespace ProductInventoryMgt.Repo
         Task<Products> GetProductAsync(Guid id);
         Task<Products> AddProductAsync(Products newproduct);
         Task<Products> UpdateProductAsync(Guid id, Products updateEntries);
+        Task<Products> DeleteProductAsync(Guid id);
     }
 }

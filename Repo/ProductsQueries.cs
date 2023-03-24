@@ -47,5 +47,12 @@ namespace ProductInventoryMgt.Repo
             return await _db.ProductsInventory.FindAsync(id);
         }
 
+        public async Task<Products> DeleteProductAsync(Guid id)
+        {
+            Products ToDelete = await _db.ProductsInventory.FindAsync(id);
+            _db.ProductsInventory.Remove(ToDelete);
+            return ToDelete;
+        }
+
     }
 }

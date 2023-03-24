@@ -62,7 +62,14 @@ namespace ProductInventoryMgt.Controllers
             };
             Products UpdatedProduct = await _Productsdb.UpdateProductAsync(id, ExistingProduct);
             return Ok(UpdatedProduct);
+        }
 
+        [HttpDelete]
+        [Route("{id}")]
+        public async Task<IActionResult> DeleteProductAsync(Guid id)
+        {
+            Products DeletedProduct = await _Productsdb.DeleteProductAsync(id);
+            return Ok(DeletedProduct);
         }
     }
 }
