@@ -51,6 +51,7 @@ namespace ProductInventoryMgt.Repo
         {
             Products ToDelete = await _db.ProductsInventory.FindAsync(id);
             _db.ProductsInventory.Remove(ToDelete);
+            await _db.SaveChangesAsync();
             return ToDelete;
         }
 
