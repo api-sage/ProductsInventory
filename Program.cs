@@ -1,6 +1,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using ProductInventoryMgt.ProductDbContext;
+using ProductInventoryMgt.Repo;
 
 namespace ProductInventoryMgt
 {
@@ -17,7 +18,8 @@ namespace ProductInventoryMgt
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<ProductsDbContext>(options => options.UseSqlServer(
-                builder.Configuration.GetConnectionString("DefaultConnections")));
+                builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddScoped<IProducts, ProductsQueries>();
 
             var app = builder.Build();
 
