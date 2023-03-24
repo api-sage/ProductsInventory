@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "6JV0kAl4LhN3jbomyPTPjsAUM2DOstl6FQyItBnjjRKL1Yly+b2OFiNpYUGeG30SSi9gnu3nhPovSXn2kiLinQ==",
+  "dgSpecHash": "ImM1Ko6evDamTToR5l3xyd1CB/JtnDdg8SoEh+e9gEQF+AvRHpm0TKAl//NJyl03aT/LftsqvqmzVcYh5aWAUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\CSharp\\aspnet\\prj1\\aspapi\\ASP.NET-apis\\ProductInventoryMgt\\ProductInventoryMgt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

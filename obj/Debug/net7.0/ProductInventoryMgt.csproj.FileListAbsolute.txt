@@ -77,3 +77,6 @@ C:\Users\USER\CSharp\aspnet\prj1\aspapi\ASP.NET-apis\ProductInventoryMgt\obj\Deb
 C:\Users\USER\CSharp\aspnet\prj1\aspapi\ASP.NET-apis\ProductInventoryMgt\obj\Debug\net7.0\ProductInventoryMgt.pdb
 C:\Users\USER\CSharp\aspnet\prj1\aspapi\ASP.NET-apis\ProductInventoryMgt\obj\Debug\net7.0\ProductInventoryMgt.genruntimeconfig.cache
 C:\Users\USER\CSharp\aspnet\prj1\aspapi\ASP.NET-apis\ProductInventoryMgt\obj\Debug\net7.0\ref\ProductInventoryMgt.dll
+C:\Users\USER\CSharp\aspnet\prj1\aspapi\ASP.NET-apis\ProductInventoryMgt\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\USER\CSharp\aspnet\prj1\aspapi\ASP.NET-apis\ProductInventoryMgt\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\USER\CSharp\aspnet\prj1\aspapi\ASP.NET-apis\ProductInventoryMgt\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
