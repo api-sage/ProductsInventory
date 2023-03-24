@@ -7,6 +7,8 @@ namespace ProductInventoryMgt.Model.Domain
     {
         [Key]
         public Guid ProductId { get; set; }
+        [Required]
+        public int ProductNumber { get; set; }
         public string ProductName { get; set; }
         public int QtyReceived { get; set; }
         public int QtySold { get; set; }

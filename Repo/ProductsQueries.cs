@@ -16,7 +16,7 @@ namespace ProductInventoryMgt.Repo
         }
         public async Task<IEnumerable<Products>> GetProductsAsync()
         {
-            List<Products> AllProducts = await _db.ProductsInventory.ToListAsync();
+            List<Products> AllProducts = await _db.ProductsInventory.OrderBy(x=>x.ProductNumber).ToListAsync();
             return AllProducts;
         }
 
@@ -28,6 +28,7 @@ namespace ProductInventoryMgt.Repo
         public async Task<Products> AddProductAsync(Products newProduct)
         {
             newProduct.ProductId = Guid.NewGuid();
+            newProduct.ProductNumber = await _db.ProductsInventory.CountAsync();
             await _db.ProductsInventory.AddAsync(newProduct);
             await _db.SaveChangesAsync();
             return await _db.ProductsInventory.FindAsync(newProduct.ProductId);
